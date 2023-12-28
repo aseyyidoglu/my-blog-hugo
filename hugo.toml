@@ -16,14 +16,14 @@ title = "My Personal Blog"
 [menu]
   [[menu.main]]
     identifier = "posts"
-    name = "posts"
+    name = "Posts"
     title = "posts"
     url = "/"
     weight = 10
 
   [[menu.main]]
     identifier = "about"
-    name = "about"
+    name = "About"
     title = "about"
     url = "/about/"
     weight = 20
