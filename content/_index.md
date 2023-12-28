@@ -1,4 +1,4 @@
 ---
-title: "Home"
+title: "Ali's Blog"
 ---
-This is some info about me.
+I write articles and reference content in business and technical domains.
