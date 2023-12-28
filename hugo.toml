@@ -1,5 +1,5 @@
 baseURL = 'https://aliseyyidoglu.netlify.app/'
-languageCode = 'en-us'
+languageCode = 'en-US'
 theme = 'etch'
 enableInlineShortcodes = true
 pygmentsCodeFences = true
@@ -9,7 +9,7 @@ title = "Ali Seyyidoglu"
 
 [params]
   description = "Technical education content."
-  copyright = "Copyright © 2023 Ali Osman Seyyidoglu | Hugo Theme: Lukas Joswiak"
+  copyright = "Copyright © 2023 Ali Seyyidoglu | Hugo Theme: Lukas Joswiak"
   dark = "auto"
   highlight = true
 
