@@ -1,4 +1,36 @@
 baseURL = 'https://aliseyyidoglu.netlify.app/'
 languageCode = 'en-us'
-title = 'My New Hugo Site'
 theme = 'etch'
+enableInlineShortcodes = true
+pygmentsCodeFences = true
+pygmentsUseClasses = true
+
+title = "My Personal Blog"
+
+[params]
+  description = "Technical education content."
+  copyright = "Copyright © 2020 Me"
+  dark = "auto"
+  highlight = true
+
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "posts"
+    title = "posts"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "about"
+    name = "about"
+    title = "about"
+    url = "/about/"
+    weight = 20
+
+[permalinks]
+  posts = "/:title/"
+
+[markup.goldmark.renderer]
+  # Allows HTML in Markdown
+  unsafe = true
