@@ -9,7 +9,7 @@ title = "My Personal Blog"
 
 [params]
   description = "Technical education content."
-  copyright = "Copyright © 2020 Me"
+  copyright = "Copyright © 2023 Ali Osman Seyyidoglu | Hugo Theme: Lukas Joswiak"
   dark = "auto"
   highlight = true
 
