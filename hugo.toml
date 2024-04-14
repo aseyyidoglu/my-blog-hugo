@@ -9,7 +9,7 @@ title = "Ali Seyyidoglu"
 
 [params]
   description = "Technical education content."
-  copyright = "Copyright © 2023 Ali Seyyidoglu | Hugo Theme: Lukas Joswiak"
+  copyright = "This site uses Hugo Theme created by Lukas Joswiak"
   dark = "auto"
   highlight = true
 
