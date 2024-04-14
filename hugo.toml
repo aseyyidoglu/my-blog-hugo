@@ -9,7 +9,7 @@ title = "Ali Seyyidoglu"
 
 [params]
   description = "Technical education content."
-  copyright = "This site uses Hugo Theme created by Lukas Joswiak"
+  copyright = "This site uses [Etch theme](https://github.com/LukasJoswiak/etch) created by Lukas Joswiak"
   dark = "auto"
   highlight = true
 
