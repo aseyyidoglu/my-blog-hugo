@@ -7,6 +7,6 @@ draft = false
 tags = ["shortcodes","privacy",]
 +++
 
-** Welcome to My Blog
+# Welcome to My Blog
 
 This is the first post.
