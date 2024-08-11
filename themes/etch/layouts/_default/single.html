@@ -10,6 +10,7 @@
                 <time>{{ .Lastmod | time.Format (i18n "post.updated") }}</time>
             {{ end }}
         {{- end -}}
+        </div>
         <ul class="tags">
           {{ with .Params.tags }}
             {{ range . }}
@@ -17,7 +18,6 @@
             {{ end }}
           {{ end }}
         </ul>
-        </div>
     </header>
     {{- .Content -}}
 </article>
