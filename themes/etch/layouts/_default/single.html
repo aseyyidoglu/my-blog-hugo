@@ -10,9 +10,13 @@
                 <time>{{ .Lastmod | time.Format (i18n "post.updated") }}</time>
             {{ end }}
         {{- end -}}
-        {{ with .Params }}
-            {{ $tags }}
-        {{ end }}
+        <ul class="tags">
+          {{ with .Params.tags }}
+            {{ range . }}
+              <li><a href="{{ "/tags/" | relURL }}{{ . | urlize }}">{{ . }}</a></li>
+            {{ end }}
+          {{ end }}
+        </ul>
         </div>
     </header>
     {{- .Content -}}
