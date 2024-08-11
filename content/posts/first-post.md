@@ -1,8 +1,8 @@
-+++
-author = "Ali Osman Seyyidoglu"
-title = "About This Blog"
-date = "2024-08-09"
-description = "Learn more about technologies I used in this blog."
+---
+author = "Ali Osman Seyyidoglu" 
+title = "About This Blog" 
+date = "2024-08-09" 
+description = "Learn more about technologies I used in this blog." 
 draft = false
 tags = ["hugo","markdown","netlify","github"]
 +++
