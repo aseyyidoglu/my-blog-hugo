@@ -11,13 +11,7 @@
             {{ end }}
         {{- end -}}
         </div>
-        <ul class="tags">
-          {{ with .Params.tags }}
-            {{ range . }}
-              <a href="{{ "/tags/" | relURL }}{{ . | urlize }}">{{ . }}</a>
-            {{ end }}
-          {{ end }}
-        </ul>
+        {{ range $i, $e := .Params.tags }}{{ if $i }}, {{ end }}{{ $e }}{{ end }}
     </header>
     {{- .Content -}}
 </article>
