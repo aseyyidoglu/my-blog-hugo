@@ -10,7 +10,9 @@
                 <time>{{ .Lastmod | time.Format (i18n "post.updated") }}</time>
             {{ end }}
         {{- end -}}
-        {{ with .Params.tags }}{{ delimit . ", " }}{{ end }}
+        {{ with .Site.Params }}
+            {{ .tags }}
+        {{ end }}
         </div>
     </header>
     {{- .Content -}}
