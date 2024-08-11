@@ -1,4 +1,4 @@
----
++++
 author = "Ali Osman Seyyidoglu" 
 title = "About This Blog" 
 date = "2024-08-09" 
