@@ -9,8 +9,8 @@ title = "Ali Osman Seyyidoglu"
 
 [params]
   description = "Technical education content."
-  copyright = "This site uses Etch created by Lukas Joswiak. Learn more at https://github.com/LukasJoswiak/etch"
-  dark = "auto"
+  copyright = "This site uses [Etch theme created by Lukas Joswiak.](https://github.com/LukasJoswiak/etch)"
+  dark = "false"
   highlight = true
 
 [menu]
