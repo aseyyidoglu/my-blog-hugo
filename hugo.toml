@@ -10,7 +10,7 @@ title = "Ali Osman Seyyidoğlu"
 [params]
   description = "Personal Website"
   copyright = "This site uses Etch theme created by Lukas Joswiak."
-  dark = "off"
+  dark = "auto" # on, off or auto
   highlight = true
 
 [menu]
