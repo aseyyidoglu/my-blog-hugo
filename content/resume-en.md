@@ -1,5 +1,5 @@
 +++
-title = "Resume - English"
+title = ""
 +++
 
 M: +61412140274; +905336088691  
