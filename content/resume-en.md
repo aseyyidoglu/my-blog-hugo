@@ -1,5 +1,5 @@
 +++
-title = "Resume (EN)"
+title = "Resume - English"
 +++
 
 ALI OSMAN SEYYIDOGLU  
