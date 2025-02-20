@@ -61,4 +61,4 @@ Project Assistant - Donper, Istanbul
 - Erasmus Scholarship, European Commission 2012
 
 
-[Download](~/static/Ali-Osman-Seyyidoglu-Resume-EN-20250127.pdf)
+[Download](/Ali-Osman-Seyyidoglu-Resume-EN-20250127.pdf)
