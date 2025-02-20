@@ -35,6 +35,22 @@ title = "Ali Osman Seyyidoglu"
     url = "/resume/"
     weight = 30
 
+  [[menu.main]]
+    identifier = "resume-en"
+    name = "Resume (EN)"
+    title = "resume-en"
+    url = "/resume-en/"
+    weight = 40
+    parent = "resume"
+
+  [[menu.main]]
+    identifier = "resume-tr"
+    name = "Resume (TR)"
+    title = "resume-tr"
+    url = "/resume-tr/"
+    weight = 50
+    parent = "resume"
+
 [permalinks]
   posts = "/:title/"
 
