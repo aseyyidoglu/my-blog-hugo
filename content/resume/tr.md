@@ -6,14 +6,14 @@ E: ali.seyyidoglu@gmail.com
 Proje Yönetimi, Planlama, İş Birliği, Liderlik, Müşteri Hizmeti, Aktif Dinleme, Sorun Çözme, Bütçe Hazırlama, Süreç Geliştirme, Veri Analizi, Araştırma
 
 # TECRÜBE
-Şirket Ortağı - Atomicro, Sydney. 
+Şirket Ortağı - Atomicro, Sydney  
 09/2021 - Bugün  
 - Şirket gelir-giderlerinin kayıt ve takibi için muhasebe defteri ve faturalama sistemi kurdum
 - $5.000 Avustralya Doları değeri üstünde bir proje için iş teklifi hazırladım ve bu projeyi yaklaşık 3 ayda teslim ettim 
 - Şirketin stratejik yönünü belirledim, iş planı hazırladım ve müşteri ilişkilerini yönettim
 - Veri analizi ve veri görselleştirme konularında bir veri mühendisine ve finans uzmanına eğitim verdim
 
-Bilgi Teknolojileri İş ve Sistem Analisti - Anglicare, Sydney. 
+Bilgi Teknolojileri İş ve Sistem Analisti - Anglicare, Sydney  
 02/2021 - 01/2022  
 - 10’dan fazla kurumsal projeden 3 projeyi kendim yönettim ve diğerlerine aktif olarak katıldım 
 - 2 takım arkadaşına yalın ve anlaşılır teknik döküman yazımı ile ilgili liderlik yaptım
@@ -48,7 +48,7 @@ Operasyon Destek Koordinatörü - Thinxtra, Sydney
 - Daha iyi kalite-fiyat dengesine sahip yan ürünleri araştırarak şirketin ticari yetkinliğine katkıda bulundum
 
 Proje Asistanı - Dönper, İstanbul  
-09/2014 - 07/2016. 
+09/2014 - 07/2016  
 - Proje müdürlerine proje planlaması, takvim, döküman ve ekip yönetimi konularında destek oldum
 - Aynı anda 3 farklı şehirde kurulumu yapılan veritabanlarının iş süreçlerini koordine ettim
 
@@ -61,5 +61,5 @@ Proje Asistanı - Dönper, İstanbul
 - Erasmus Bursu, Avrupa Komisyonu 2012
 
 
-[PDF olarak indir](/Ali-Osman-Seyyidoglu-Resume-TR-20250127.pdf)
+[Bu dosyayı PDF olarak indir](/Ali-Osman-Seyyidoglu-Resume-TR-20250127.pdf)
 
