@@ -2,7 +2,6 @@
 title = "Resume - English"
 +++
 
-ALI OSMAN SEYYIDOGLU  
 M: +61412140274; +905336088691  
 E: ali.seyyidoglu@gmail.com  
 
