@@ -1,2 +1,2 @@
-[View resume in English](/en/)  
-[View resume in Turkish](/tr/)   
+[View resume in English](/resume/en/)  
+[View resume in Turkish](/resume/tr/)   
