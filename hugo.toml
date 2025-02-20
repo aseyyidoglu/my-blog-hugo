@@ -5,12 +5,12 @@ enableInlineShortcodes = true
 pygmentsCodeFences = true
 pygmentsUseClasses = true
 
-title = "Ali Osman Seyyidoglu"
+title = "Ali Osman Seyyidoğlu"
 
 [params]
-  description = "Technical education content."
-  copyright = "This site uses https://github.com/LukasJoswiak/etch created by Lukas Joswiak."
-  dark = ""
+  description = "Personal Website"
+  copyright = "This site uses Etch theme created by Lukas Joswiak."
+  dark = "off"
   highlight = true
 
 [menu]
