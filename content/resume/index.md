@@ -40,7 +40,7 @@ Finance Business Analyst - Life Without Barriers, Sydney
 - Maintained data integrity of commercially sensitive records across systems
 - Built relationships with accounting and management teams within division
 
-Operations Support Coordinator - Thinxtra, Sydney. 
+Operations Support Coordinator - Thinxtra, Sydney  
 09/2017 - 09/2018
 - Oversaw product operations by managing re-branding, leasing and maintenance activities daily; increasing company profitability in long-run
 - Planned and led a nation-wide inventory count and software implementation activity by coordinating 3 engineers
@@ -53,11 +53,12 @@ Project Assistant - Donper, Istanbul
 - Coordinated an on-site database hardware installation activity across 3 different sites for major clients
 
 # EDUCATION
-- Industrial Engineering - Istanbul Technical University (10/02/2016)
+- Industrial Engineering - Istanbul Technical University (12/09/2011 - 10/02/2016)
 - International Exchange Student - University of Lisbon (07/09/2011 - 05/02/2012)
-- Naval Architecture and Marine Engineering - Istanbul Technical University (Graduation: 04/07/2014)
+- Naval Architecture and Marine Engineering - Istanbul Technical University (02/09/2009 - 04/07/2014)
 
 # AWARDS
 - Erasmus Scholarship, European Commission 2012
 
 
+[Download](/content/resume/index.md)
