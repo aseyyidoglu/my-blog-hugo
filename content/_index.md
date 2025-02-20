@@ -1,4 +1,4 @@
 ---
 title: "Ali's Blog"
 ---
-I write articles and reference content in business and technical domains.
+Welcome! Here I share content about business, innovation, programming, web, data science and analytics. 
