@@ -8,5 +8,5 @@ Thanks to that, I became proficient in analysing business needs, communicating w
 
 I can help you with writing business documents, planning business processes, analyzing your data, and managing your projects and teams. My skills in critical thinking, planning and communications will help us together to achieve success. Please reach out to me on ali.seyyidoglu@gmail.com for your questions and to explore opportunities of working together.
 
-[Resume - English](/resume_en/)  
-[Resume - Türkçe](/resume_tr/)   
+[Resume - English](/resume-en/)  
+[Resume - Türkçe](/resume-tr/)   
