@@ -28,6 +28,13 @@ title = "Ali Osman Seyyidoglu"
     url = "/about/"
     weight = 20
 
+  [[menu.main]]
+    identifier = "resume"
+    name = "Resume"
+    title = "resume"
+    url = "/resume/"
+    weight = 30
+
 [permalinks]
   posts = "/:title/"
 
