@@ -1,5 +1,5 @@
 +++
-title = "Resume - Turkish"
+title = "Resume - Türkçe"
 +++
 
 ALİ OSMAN SEYYİDOĞLU  
