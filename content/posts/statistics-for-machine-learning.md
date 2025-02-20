@@ -1,9 +1,9 @@
 +++
-author = "Ali Osman Seyyidoglu" 
-title = "Statistics for Machine Learning" 
-date = "2025-02-20" 
-description = "Descriptive statistics, inferential statistics, predictions, errors" 
-draft = true
+author = "Ali Osman Seyyidoglu"  
+title = "Statistics for Machine Learning"  
+date = "2025-02-20"  
+description = "Descriptive statistics, inferential statistics, predictions, errors"  
+draft = true  
 tags = ["statistics","probability","machine learning","artificial intelligence"]
 +++
 
