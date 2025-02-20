@@ -9,7 +9,7 @@ title = "Ali Osman Seyyidoglu"
 
 [params]
   description = "Technical education content."
-  copyright = 'This site uses https://github.com/LukasJoswiak/etch created by Lukas Joswiak.</a>'
+  copyright = "This site uses https://github.com/LukasJoswiak/etch created by Lukas Joswiak."
   dark = ""
   highlight = true
 
