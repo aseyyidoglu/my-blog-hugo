@@ -1,5 +1,5 @@
-# Personal Blog
-My personal blog site built with Hugo to share education material with general public.
+# Intro
+I built this website with Hugo to use it for personal branding and to share technical and educational content.
 
 ## Installation
 
@@ -15,7 +15,7 @@ which hugo
 
 You should see the directory where Hugo is installed, similar to "/usr/local/bin/hugo"
 
-On terminal, use below code snippet to build a Hugo site on your local machine. In my example, I chose **etch** theme as it fits to my needs. If you want to use another theme, change "git submodule add https://github.com/LukasJoswiak/etch.git themes/etch" line in the code snippet.
+On terminal, use below code snippet to build a Hugo site on your local machine. In my example, I chose **Etch** theme as it fits to my needs. If you want to use another theme, change "git submodule add https://github.com/LukasJoswiak/etch.git themes/etch" line in the code snippet.
 
 ``` shell
 hugo new site quickstart
