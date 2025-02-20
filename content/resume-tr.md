@@ -65,5 +65,5 @@ Proje Asistanı - Dönper, İstanbul
 - Erasmus Bursu, Avrupa Komisyonu 2012
 
 
-[Bu dosyayı PDF olarak indir](/Ali-Osman-Seyyidoglu-Resume-TR-20250127.pdf)
+[Ali-Osman-Seyyidoglu-Resume-TR-20250127.pdf](/Ali-Osman-Seyyidoglu-Resume-TR-20250127.pdf)
 
