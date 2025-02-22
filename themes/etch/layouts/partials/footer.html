@@ -1,5 +1,6 @@
 <footer id="footer">
     {{ if ({{ .Site.Params.linkedin }}) -}}
+        {{ .Site.Params.linkedin }}
         <img src="{{ .Site.Params.linkedin }}" alt="">
     {{ end -}}
     {{ .Site.Params.copyright }}
