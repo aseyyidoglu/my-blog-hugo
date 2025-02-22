@@ -2,6 +2,7 @@
     {{ if .Site.Params.Linkedin -}} 
         <span class="social">
             <a href="{{ .Site.Params.Linkedin}}">Linkedin</a>
+            {{ printf `<link rel="Linkedin URL" href="%s">` {{ .Site.Params.Linkedin }} | safeHTML }}
         </span>
     {{ end -}}
     <span>{{ .Site.Params.Copyright }}</span>
