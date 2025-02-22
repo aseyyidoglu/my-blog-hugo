@@ -287,3 +287,7 @@ footer a {
     color: #007dfa;
     text-decoration: none;
 }
+
+footer #social {
+    flex-direction: row
+}
