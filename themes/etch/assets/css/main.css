@@ -288,6 +288,10 @@ footer a {
     text-decoration: none;
 }
 
+footer a:hover {
+    color: #369aff;
+}
+
 footer #social {
     flex-direction: row
 }
