@@ -10,6 +10,7 @@ title = "Ali Osman Seyyidoğlu"
 [params]
   description = "Personal Website"
   copyright = "This site uses Etch theme created by Lukas Joswiak."
+  linkedin = "https://www.linkedin.com/in/alioseyyidoglu/"
   dark = "auto" # on, off or auto
   highlight = true
 
