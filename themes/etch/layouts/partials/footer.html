@@ -1,6 +1,5 @@
 <footer id="footer">
-    {{ if .Site.Params.Linkedin -}}
-        <span>{{ printf `<a href=".Site.Params.Linkedin">Linkedin</a>` | safeHTML }}</span>
-    {{ end -}}
+    {{ if .Site.Params.Github -}} <span>{{ printf `<a href=".Site.Params.Github">Github</a>` | safeHTML }}</span> {{ end -}}
+    {{ if .Site.Params.Linkedin -}} <span>{{ printf `<a href=".Site.Params.Linkedin">Linkedin</a>` | safeHTML }}</span> {{ end -}}
     <span>{{ .Site.Params.Copyright }}</span>
 </footer>
