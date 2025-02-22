@@ -1,4 +1,6 @@
 <footer id="footer">
-    {{ .Site.Params.social }}
+    {{ if ({{ .Site.Params.linkedin }}) -}}
+        <img src="{{ .Site.Params.linkedin }}" alt="">
+    {{ end -}}
     {{ .Site.Params.copyright }}
 </footer>
