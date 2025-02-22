@@ -7,6 +7,6 @@ I am an engineer and entrepreneur, specialized in operational project and proces
 Today, I aim to become a better leader in technology, sharpen my technical skills, and invent scalable and global solutions. I can offer you my experience and expertise on business analysis, process planning, and project management. 
 
 ## For more information 
-- E-mail: ali.seyyidoglu@gmail.com for your questions and to explore opportunities of working together.  
-- [Book a meeting with me.](https://calendly.com/ali-seyyidoglu/30min)
+- Send an e-mail to ali.seyyidoglu@gmail.com for your questions and to explore opportunities of working together  
+- [Book a meeting with me](https://calendly.com/ali-seyyidoglu/30min)
 - Read and download my resume in [English](/resume-en/) or [Turkish](/resume-tr/)   
