@@ -1,6 +1,6 @@
 <footer id="footer">
-    {{ if .Site.Params.linkedin -}}
-        {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Params.linkedin | safeHTML }}
+    {{ if .Site.Params.Linkedin -}}
+        {{ printf `<link rel="%s" type="%s" href="%s" title="%s">` .Rel .MediaType.Type .Permalink $.Site.Params.Linkedin | safeHTML }}
     {{ end -}}
-    {{ .Site.Params.copyright }}
+    {{ .Site.Params.Copyright }}
 </footer>
