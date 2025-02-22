@@ -1,7 +1,7 @@
 <footer id="footer">
     {{ if .Site.Params.Linkedin -}}
         {{ printf `<link rel=".Site.Params.Linkedin" href=".Site.Params.Linkedin" title=".Site.Params.Linkedin">` | safeHTML }}
-        {{ .Site.Params.Linkedin }}
+        <p>{{ .Site.Params.Linkedin }}</p>
     {{ end -}}
-    {{ .Site.Params.Copyright }}
+    <p>{{ .Site.Params.Copyright }}</p>
 </footer>
