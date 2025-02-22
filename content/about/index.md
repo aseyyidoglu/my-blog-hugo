@@ -2,11 +2,11 @@
 title = "About"
 +++
 
-I am an engineer specialized in process planning and project management with over 5 years of experience. On the side, I develop solutions for data analysis, automation and internet. Working across telecommunications, medical technologies, community services and hospitality industries helped me to gain a wide perspective on common needs of an organization. 
+I am an engineer and entrepreneur, specialized in operational project and processes with over 5 years of experience. On the side, I work on data science, web development and scripting while exploring innovative ideas. I often analyse business needs, communicate with a wide range of stakeholders, formulate solutions and write business documents.
 
-Thanks to that, I became proficient in analysing business needs, communicating with a wide range of stakeholders, formulating solutions and writing business documents. Today, I work towards gaining more technical skills and business knowledge to develop and deliver larger projects to scale while offering my knowledge and expertise for others.
+Today, I aim to become a better leader in technology, sharpen my technical skills, and invent scalable and global solutions. I can offer you my experience and expertise on business analysis, process planning, and project management. 
 
-I can help you with writing business documents, planning business processes, analyzing your data, and managing your projects and teams. My skills in critical thinking, planning and communications will help us together to achieve success. Please reach out to me on ali.seyyidoglu@gmail.com for your questions and to explore opportunities of working together.
-
-[Resume - English](/resume-en/)  
-[Resume - Türkçe](/resume-tr/)   
+## For more information 
+- E-mail: ali.seyyidoglu@gmail.com for your questions and to explore opportunities of working together.  
+- [Book a meeting with me.](https://calendly.com/ali-seyyidoglu/30min)
+- Read and download my resume in [English](/resume-en/) or [Turkish](/resume-tr/)   
