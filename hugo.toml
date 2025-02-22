@@ -11,6 +11,7 @@ title = "Ali Osman Seyyidoğlu"
   description = "Personal Website"
   copyright = "This site uses Etch theme created by Lukas Joswiak."
   linkedin = "https://www.linkedin.com/in/alioseyyidoglu/"
+  github = "https://github.com/aseyyidoglu/"
   dark = "auto" # on, off or auto
   highlight = true
 
