@@ -1,6 +1,6 @@
 <footer id="footer">
     {{ if .Site.Params.linkedin -}}
-        {{ printf `<img src="%s" alt="">` $.Site.Params.linkedin | safeHTML }}
+        {{ printf `<img src="{{.Site.Params.linkedin}}" alt="">` | safeHTML }}
     {{ end -}}
     {{ .Site.Params.copyright }}
 </footer>
