@@ -59,6 +59,10 @@ header#banner nav ul li a {
     color: #454545;
 }
 
+main {
+    display:flex;
+}
+
 main#content a {
     color: #007dfa;
     text-decoration: none;
@@ -285,4 +289,34 @@ footer#footer {
 
 footer #social {
     flex-direction: row
+}
+
+#tableofcontents {
+    display: flex;
+    position: fixed;
+    flex-direction: column;
+    border-width: 0;
+    border-style: none;
+    opacity: 0;
+    transition: opacity 250ms;
+    left: 125px;
+    top: 100px;
+    width: 20%;
+}
+
+#tableofcontents span {
+    font-weight: bold;
+}
+
+#tableofcontents nav {
+    
+}
+
+#tableofcontents ul {
+    padding: 0 16px;
+    margin: 4px 0;
+}
+
+#tableofcontents li {
+    list-style-type: none;
 }

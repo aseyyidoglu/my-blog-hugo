@@ -1,10 +1,10 @@
 +++
-author = "Ali Osman Seyyidoglu"  
-title = "Basics of Using Git and Github"  
-date = "2025-02-25"  
-description = "Working with remote repositories by using Git and GitHub"  
-draft = false
+author = "Ali Osman Seyyidoglu"
+title = "Basics of Using Git and Github"
+date = "2025-02-25"
+description = "Working with remote repositories by using Git and GitHub"
 tags = ["git","github","remote repositories"]
+draft = false
 +++
 
 # Getting started

@@ -14,6 +14,9 @@
     {{ $resources = $resources | append (resources.Get "css/main.css") -}}
 
     {{ $resources = $resources | append (resources.Get "css/min770px.css") -}}
+    
+    {{ $js := resources.Get "js/toc.js" | resources.Minify | resources.Fingerprint }}
+    <script src="{{ $js.RelPermalink }}" integrity="{{ $js.Data.Integrity }}"></script>
 
     {{ $dark := .Site.Params.dark | default "auto" -}}
     {{ if not (eq $dark "off") -}}

@@ -36,3 +36,9 @@ title = "Ali Osman Seyyidoğlu"
 [markup.goldmark.renderer]
   # Allows HTML in Markdown
   unsafe = true
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 1

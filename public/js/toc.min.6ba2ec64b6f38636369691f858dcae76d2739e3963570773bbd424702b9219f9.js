@@ -1,0 +1,1 @@
+window,window.onscroll=()=>{document.querySelector("#post-header").scrollHeight+120<=window.scrollY?document.querySelector("#tableofcontents").style.opacity=1:document.querySelector("#tableofcontents").style.opacity=0}
