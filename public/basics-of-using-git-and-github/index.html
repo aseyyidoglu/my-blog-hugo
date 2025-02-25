@@ -32,12 +32,63 @@
             </div>
         <div><a href="/tags/git">git</a>, <a href="/tags/github">github</a>, <a href="/tags/remote-repositories">remote repositories</a></div>
     </header><h1 id="getting-started">Getting started</h1>
-<p>This line has a simple attribution reference <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p>Git is version control system which helps to track changes in files, especially software source code, and it can syncronize files between local and remote software development environments <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>.</p>
+<p>To install Git:</p>
+<ol>
+<li>Go to <a href="https://git-scm.com/downloads">git-scm.com/downloads</a></li>
+<li>Select your operating system</li>
+<li>Follow installation prompts</li>
+</ol>
+<p>Once you have Git installed on your local work environment, you can setup connection with a remote repository. I will use GitHub as remote repository and I will establish a SSH connection by using private-public key pair.</p>
+<h2 id="setting-up-ssh-connection-with-github">Setting up SSH connection with GitHub</h2>
+<p>Open terminal (for MacOS) and follow steps listed below.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Create a new keygen with an email</span>
+</span></span><span class="line"><span class="cl">ssh-keygen -t rsa -C YOUREMAIL@MAIL.com
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Create a new private-public key pair</span>
+</span></span><span class="line"><span class="cl">ssh-add ~/.ssh/id_rsa
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Open file directory where private-public key pair is created</span>
+</span></span><span class="line"><span class="cl">open ~/.ssh/
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Your public key is stored in file ending with .pub</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Go to https://github.com/settings/ssh/new</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Assign a title and use the public key you generated to establish connection.</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Test connection over port 443</span>
+</span></span><span class="line"><span class="cl">ssh -T -p <span class="m">443</span> git@ssh.github.com
+</span></span></code></pre></div><h2 id="cloning-a-remote-repository-to-start-working-on-it">Cloning a remote repository to start working on it</h2>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-bash" data-lang="bash"><span class="line"><span class="cl"><span class="c1"># Go to your project folder</span>
+</span></span><span class="line"><span class="cl"><span class="nb">cd</span> yourprojectfolder
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Initiate Git on your local machine</span>
+</span></span><span class="line"><span class="cl">git init
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Add remote repository to your Git environment</span>
+</span></span><span class="line"><span class="cl">git remote add origin git@github.com:USERNAME/REPOSITORY.git
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="c1"># Clone remote repository to your local environment</span>
+</span></span><span class="line"><span class="cl">git clone git@github.com:USERNAME/REPOSITORY.git
+</span></span></code></pre></div><p>Now you are ready to make changes to source code on your local machine. Every time you make a change, Git will track those changes for you to review before staging, committing and pushing it back to remote.</p>
+<h2 id="staging-changes">Staging changes</h2>
+<p>TBC</p>
+<h2 id="committing-staged-changes">Committing staged changes</h2>
+<p>TBC</p>
+<h2 id="pushing-committed-code-to-origin">Pushing committed code to origin</h2>
+<p>TBC</p>
+<h2 id="gitignore">.gitignore</h2>
+<p>Create a gitignore file where you can list files that you do not want Git to track.</p>
+<p>Typical files that you may not want to track:</p>
+<ul>
+<li>build codes</li>
+<li>3rd party libraries</li>
+</ul>
+<h1 id="references">References</h1>
 <div class="footnotes" role="doc-endnotes">
 <hr>
 <ol>
 <li id="fn:1">
-<p><a href="https://www.aliseyyidoglu.netlify.app">www.aliseyyidoglu.netlify.app</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+<p><a href="https://en.wikipedia.org/wiki/Git">https://en.wikipedia.org/wiki/Git</a>&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
 </li>
 </ol>
 </div>
