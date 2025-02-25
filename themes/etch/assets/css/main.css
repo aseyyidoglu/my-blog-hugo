@@ -59,10 +59,6 @@ header#banner nav ul li a {
     color: #454545;
 }
 
-main {
-    display:flex;
-}
-
 main#content a {
     color: #007dfa;
     text-decoration: none;
@@ -159,7 +155,7 @@ main#content header#post-header > div {
 }
 
 main#content #toc {
-    border: 1px solid #b1b1b1;
+    border: 0px solid #b1b1b1;
     border-radius: 1px;
     line-height: 26px;
     margin: 16px 0;

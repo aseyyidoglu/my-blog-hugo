@@ -1,6 +1,4 @@
 {{ define "main" }}
-<!-- {{- partial "toc.html" . -}} -->
-<!-- TOC is not responsive at the moment, TOC causes disruption on homepage -->
 <article>
     <header id="post-header">
         <h1>{{ .Title }}</h1>
@@ -19,6 +17,10 @@
         {{- end -}}
         </div>
     </header>
+    <!-- TODO: do not display TOC on single pages, shift TOC to right sidebar and show fixed on large screens -->
+    <!-- {{- if (gt (len .Page.TableOfContents) 40) -}}
+        {{- partial "toc.html" . -}}
+    {{- end -}} -->
     {{- .Content -}}
 </article>
 {{ end }}
