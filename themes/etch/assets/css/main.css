@@ -127,11 +127,11 @@ main#content ul#posts small {
     margin-left: 10px;
 }
 
-main#content ul#posts li a {
+main#content ul#posts li a, footer a {
     text-decoration: none;
 }
 
-main#content ul#posts li a:hover {
+main#content ul#posts li a:hover, footer a:hover {
     color: #369aff;
 }
 
@@ -281,11 +281,6 @@ footer#footer {
     font-weight: 400;
     color: #b3b3b3;
     margin: 40px 0;
-}
-
-footer a {
-    color: #007dfa;
-    text-decoration: none;
 }
 
 footer #social {

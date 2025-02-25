@@ -21,7 +21,7 @@ header#banner nav ul li a {
     color: #cccccc;
 }
 
-main#content a {
+main#content a, footer a {
     color: #00b1ed;
 }
 
@@ -41,7 +41,7 @@ main#content ul#posts small {
     color: #a7a7a7;
 }
 
-main#content ul#posts li a:hover {
+main#content ul#posts li a:hover, footer a:hover {
     color: #21c7ff;
 }
 
