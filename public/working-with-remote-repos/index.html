@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en"><head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal Website">
+    
+    <link rel="shortcut icon" href="http://localhost:1313/favicon.ico">
+    
+    <link rel="stylesheet" href="/css/style.min.css">
+
+    <link rel="canonical" href="http://localhost:1313/working-with-remote-repos/" />
+    <title>Working with Remote Repos</title>
+</head>
+<body><header id="banner">
+    <h2><a href="http://localhost:1313/">Ali Osman Seyyidoğlu</a></h2>
+    <nav>
+        <ul>
+            <li>
+                <a href="/" title="posts">Posts</a>
+            </li><li>
+                <a href="/about/" title="about">About</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main id="content">
+<article>
+    <header id="post-header">
+        <h1>Working with Remote Repos</h1>
+        <div>
+                <time>Created on 2025-02-20 00:00</time>
+            </div>
+        <div><a href="/tags/statistics">statistics</a>, <a href="/tags/probability">probability</a>, <a href="/tags/machine-learning">machine learning</a>, <a href="/tags/artificial-intelligence">artificial intelligence</a></div>
+    </header><h1 id="statistics-in-machine-learning">Statistics in Machine Learning</h1>
+<p>Statistics help us to learn more about a population (larger group) by analysing samples (smaller groups which is part of the larger group). While doing so, we make predictions and assumptions. For example, we can estimate a house price by statistically analysing a selected group of houses within the entire city.</p>
+<p>Selecting a small group from population is called sampling. We want to understand that our sample is good enough to represent the population before moving any further. To do so, we use <strong>Descriptive Statistics</strong> – to describe our sample data. This includes mean, median, mode, variance and standard deviation.</p>
+<p>By using this sample, we can draw a conclusion about the population by using <strong>Inferential Statistics</strong> – making predictions about the unknown. To be as accurate as possible with our conclusions, we must assess how well our prediction is.</p>
+<p>Difference between our predictions and reality is called <strong>ERROR</strong>, and we aim to minimise the error to make our predictions as accurate as possible. There are different ways to measure error. These are ?</p>
+<h2 id="data-types">Data Types</h2>
+<p>There are quantifiable and non-quantifiable (categorical) data types.</p>
+<p>For example, weight and height are quantifiable, can be measured by numbers; while eye colour and birthplace are non-quantifiable (categorical), they are described by a <strong>category word</strong>. Colour and city names are just label words instead of numbers.</p>
+<p>Quantifiable data can be discrete or continuous, meaning it can be represented by only integers or can assume any value between two numbers. For example, counting people in a room is discrete as a person is represented with only &ldquo;1&rdquo;; while a car&rsquo;s speed rate is continuous. Measuring a continuous data is limited by accuracy of the measurement instrument.</p>
+<p>By asking a question: &ldquo;is person&rsquo;s hair colour white?&rdquo;, we can transform our category into a binary values by using 1 and 0, representing yes and no respectively.</p>
+<h2 id="descriptive-statistics">Descriptive Statistics</h2>
+<h3 id="mean">Mean</h3>
+<p>Arithmetic average of a data series, can be calculated as below:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">mean_value</span><span class="p">(</span><span class="n">data_series</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">	<span class="n">mean</span> <span class="o">=</span> <span class="n">SUM</span><span class="p">(</span><span class="n">data_series</span><span class="p">)</span><span class="o">/</span><span class="n">COUNT</span><span class="p">(</span><span class="n">data_series</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="k">return</span> <span class="n">mean</span>
+</span></span></code></pre></div><h3 id="median">Median</h3>
+<p>Data that is in the middle of a ranked (ordered) series. Median in a data series can be calculated as below:</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">median_value</span><span class="p">(</span><span class="n">data_series</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">	<span class="n">sorted_data</span> <span class="o">=</span> <span class="n">SORT</span><span class="p">(</span><span class="n">data_series</span><span class="p">,</span><span class="n">ascending</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">	<span class="n">middle_index</span> <span class="o">=</span> <span class="p">(</span><span class="n">COUNT</span><span class="p">(</span><span class="n">sorted_data</span><span class="p">)</span><span class="o">+</span><span class="mi">1</span><span class="p">)</span><span class="o">/</span><span class="mi">2</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="k">if</span> <span class="ow">not</span> <span class="nb">int</span><span class="p">(</span><span class="n">middle_index</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">		<span class="n">lower_index</span> <span class="o">=</span> <span class="n">lower</span><span class="p">(</span><span class="n">middle_index</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">		<span class="n">upper_index</span> <span class="o">=</span> <span class="n">lower</span><span class="p">(</span><span class="n">middle_index</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">		
+</span></span><span class="line"><span class="cl">		<span class="n">mean</span> <span class="o">=</span> <span class="p">(</span><span class="n">sorted_data</span><span class="p">[</span><span class="n">upper_index</span><span class="p">]</span><span class="o">+</span><span class="n">sorted_data</span><span class="p">[</span><span class="n">lower_index</span><span class="p">])</span><span class="o">/</span><span class="mi">2</span>
+</span></span><span class="line"><span class="cl">		<span class="k">return</span> <span class="n">mean</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl">	<span class="k">if</span> <span class="nb">int</span><span class="p">(</span><span class="n">middle_index</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">		<span class="n">mean</span> <span class="o">=</span> <span class="n">sorted_data</span><span class="p">[</span><span class="n">middle_index</span><span class="p">]</span>
+</span></span><span class="line"><span class="cl">		<span class="k">return</span> <span class="n">mean</span>
+</span></span></code></pre></div><h3 id="mode">Mode</h3>
+<p>The most frequently observed data in a data series.</p>
+<p>Mode is observed as the peak point in a frequency distribution diagram.</p>
+<h3 id="variance-and-standard-deviation">Variance and Standard Deviation</h3>
+<p>Describes how spread out data series according to mean. To calculate Standard Deviation, we square-root variance to match the original measure units of the dataset. For example, if the dataset represents distance in kilometers, we want the standard deviation to be in units of kilometers and not kilometer-square.</p>
+<div class="highlight"><pre tabindex="0" class="chroma"><code class="language-python" data-lang="python"><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">variance_value</span><span class="p">(</span><span class="n">data_series</span><span class="p">):</span>
+</span></span><span class="line"><span class="cl">	<span class="n">squared_error_sum</span> <span class="o">=</span> <span class="mi">0</span>
+</span></span><span class="line"><span class="cl">	<span class="k">for</span> <span class="n">data</span> <span class="ow">in</span> <span class="n">data_series</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">		<span class="n">squared_error</span> <span class="o">=</span> <span class="p">(</span><span class="n">data</span> <span class="o">-</span> <span class="n">mean</span><span class="p">)</span><span class="o">**</span><span class="mi">2</span> 
+</span></span><span class="line"><span class="cl">		<span class="c1">## squared to remove the sign</span>
+</span></span><span class="line"><span class="cl">		<span class="n">squared_error_sum</span> <span class="o">=+</span> <span class="n">squared_error</span>
+</span></span><span class="line"><span class="cl">		<span class="n">variance</span> <span class="o">=</span> <span class="n">squared_error_sum</span> <span class="o">/</span> <span class="n">COUNT</span><span class="p">(</span><span class="n">data_series</span><span class="p">)</span>
+</span></span><span class="line"><span class="cl">		<span class="k">return</span> <span class="n">variance</span>
+</span></span><span class="line"><span class="cl">
+</span></span><span class="line"><span class="cl"><span class="k">def</span> <span class="nf">standard_deviation</span><span class="p">:</span>
+</span></span><span class="line"><span class="cl">	<span class="k">return</span> <span class="n">SQUARE_ROOT</span><span class="p">(</span><span class="n">variance</span><span class="p">)</span>
+</span></span></code></pre></div><h2 id="inferential-statistics">Inferential Statistics</h2>
+<p>When we estimate a characteristics about the population by using sample statistics, we are applying inferential statistics. Because inferential statistics is about estimating an unknown, there is always room for error. To express how confident we are in our estimation, we use confidence interval.</p>
+<h3 id="probability-distribution">Probability Distribution</h3>
+<h3 id="hypothesis-testing">Hypothesis Testing</h3>
+<h4 id="testing-with-one-sample">Testing with one sample</h4>
+<h4 id="comparing-two-samples">Comparing two samples</h4>
+<h2 id="references">References</h2>
+<p>1 <a href="https://docs.scipy.org/doc/scipy/tutorial/stats.html">https://docs.scipy.org/doc/scipy/tutorial/stats.html</a><br>
+2 <a href="https://support.minitab.com/en-us/minitab/help-and-how-to/statistics/">https://support.minitab.com/en-us/minitab/help-and-how-to/statistics/</a></p>
+</article>
+
+        </main><footer id="footer">
+    <span class="social">
+            Visit me on: 
+            <a href="https://www.linkedin.com/in/alioseyyidoglu/" target="_blank">Linkedin</a>
+            <a href="https://github.com/aseyyidoglu/" target="_blank">GitHub</a>
+        </span>
+    <span>This site uses Etch theme created by Lukas Joswiak.</span>
+</footer>
+</body>
+</html>
