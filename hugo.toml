@@ -42,3 +42,7 @@ title = "Ali Osman Seyyidoğlu"
     endLevel = 3
     ordered = false
     startLevel = 1
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
